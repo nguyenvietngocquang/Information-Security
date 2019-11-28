@@ -1,6 +1,7 @@
 # Giới thiệu
 
 Code Java thực hiện mã hóa và giải mã (phá khóa) theo hệ mã RSA.
+Lưu ý: Chỉ mã hóa và giải mã không dấu.
 
 # Web Demo
 [https://ruanshiron.github.io/rsa-demo/](https://ruanshiron.github.io/rsa-demo/)
@@ -11,7 +12,7 @@ Code Java thực hiện mã hóa và giải mã (phá khóa) theo hệ mã RSA.
 Bản hoàn thiện: Thực hiện mã hóa và giải mã với mọi độ to nhỏ của n và public key e.
 
 ## 2. Draft.java
-Bản chưa hoàn thiện: Điểm hạn chế là số n phải đủ to để có thể mã hóa và giải mã. Nếu số n không đủ to, sẽ xảy ra tràn bộ nhớ.
+Bản chưa hoàn thiện: Chỉ mã hóa và giải mã các ký tự alphabet 'a' ~ 'z'.
 
 ## 3. Presentation.pptx
 Slide Power Point thuyết trình.
